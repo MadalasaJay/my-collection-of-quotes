@@ -3,7 +3,7 @@ from flask_sqlalchemy import SQLAlchemy
 
 app=Flask(__name__)
 
-#app.config['SQLALCHEMY_DATABASE_URI'] ='postgresql+psycopg2://postgres:jayasurya18@localhost/quotes'
+#app.config['SQLALCHEMY_DATABASE_URI'] ='postgresql+psycopg2://postgres:password@localhost/quotes'
 app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://uirbwhheozjgoo:209913752436c4ddb213e73a1886b2b4c9f37891917f01d71e15bc2c6b3d8a08@ec2-52-49-120-150.eu-west-1.compute.amazonaws.com:5432/depp427mq3jeuc'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS']= False
 
